@@ -1,8 +1,8 @@
 # Own
 node_modules
 .DS_Store
-assets/source/img/*
-originals/*
+assets/source/img/*.*
+originals/*.*
 .sketch
 .psd
 
