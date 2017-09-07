@@ -1,2 +1,18 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "core/variables";
-@import "core/default";
+
+/* Color palette */
+
+$light-gold: #ffcd59;
+$dark-blue: #10384E;
+
+/* Text styles */
+
+/* Element styles */
+
+/* Section styles */
+
+html, body {
+	min-height: 100%;
+	background-image: linear-gradient(to top, #ffffff, #f2f2f2);
+}

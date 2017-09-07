@@ -1,9 +1,9 @@
 {
-  "name": "Initium",
-  "version": "4.0.2",
+  "name": "Project-Name",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/straykov/initium.git"
+    "url": "https://github.com/costmc/costmc.github.io.git"
   },
   "scripts": {
     "start": "node ./node_modules/gulp/bin/gulp.js",
@@ -60,5 +60,10 @@
       "semi": 2
     }
   },
-  "sasslintConfig": "sass-lint.yml"
+  "sasslintConfig": "sass-lint.yml",
+  "dependencies": {
+  "bootstrap": "^4.0.0-beta",
+  "jquery": "^3.2.1",
+  "popper.js": "^1.12.5"
+  }
 }
