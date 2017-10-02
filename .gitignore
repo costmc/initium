@@ -1,8 +1,11 @@
 # Own
 node_modules
 .DS_Store
+originals
 .sketch
 .psd
+*.sublime-project
+*.sublime-workspace
 
 # Logs
 logs
