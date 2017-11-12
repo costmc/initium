@@ -61,6 +61,16 @@ gulp.task('no-server', function() {
   gulp.start('twig', 'styles', 'scripts', 'img', 'cache', 'watch');
 });
 
+// Живая без картинок
+gulp.task('no-pics', function() {
+  gulp.start('twig', 'styles', 'scripts', 'cache', 'watch', 'server');
+});
+
+// Одноразовая сборка без картинок
+gulp.task('fast', function() {
+  gulp.start('twig', 'styles', 'scripts', 'cache');
+});
+
 // Федеральная служба по контролю за оборотом файлов
 gulp.task('watch', function() {
   gulp.watch(paths.templates + '**/*.twig', ['twig']);
