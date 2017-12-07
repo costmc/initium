@@ -10,7 +10,7 @@
     "live": "node ./node_modules/gulp/bin/gulp.js live",
     "no-server": "node ./node_modules/gulp/bin/gulp.js no-server",
     "no-pics": "node ./node_modules/gulp/bin/gulp.js no-pics",
-    "fast": "node ./node_modules/gulp/bin/gulp.js fast",
+    "fast": "node ./node_modules/gulp/bin/gulp.js fast"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
